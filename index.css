@@ -1,0 +1,109 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.highlight {
+    /* padding-bottom:100px; */
+    color: #ffab52;
+    /* padding-right:0px; */
+}
+
+.box {
+    float: left;
+    width: 35%;
+    margin: 5%;
+    margin-left: 5%;
+    padding-left: 50px;
+    /* border: 2px solid; */
+}
+
+.box img {
+    width: 140%;
+
+}
+
+.bgtop {
+    background: url(top-banner.png
+);
+    /* border: 2px solid red; */
+    height: 550px;
+    background-repeat: no-repeat;
+}
+
+.box button {
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 7px;
+    margin-top: 25px;
+    cursor: pointer;
+    /*  */
+}
+
+.box button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+    /* padding: 10px 20px; */
+    /* border-radius: 7px; */
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.bgmid {
+    background: url(dream-bg.png
+);
+    height: 550px;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 115px;
+
+}
+
+.experiences {
+    background: url(exp-bg.png
+);
+    height: 550px;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    background-position-y: center;
+}
+
+.boxes {
+    width: 40%;
+    float: left;
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-top: 120px;
+    padding-left: 2%;
+    /* display: flex; */
+    /* border: 2px solid red; */
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.boxed {
+    border-left: 10px solid orange;
+}
+
+.no {
+    margin-bottom: 100px;
+    padding-bottom: 5px;
+}
